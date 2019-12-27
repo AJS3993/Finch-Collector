@@ -6,7 +6,7 @@
 
 <div class = "row">
   {% for finch in finches %}
-  
+  <a href="{% url 'detail' finch.id %}">
   <div class="container center-align col s4">
   
   <div class="card hoverable blue lighten-5">
@@ -19,7 +19,7 @@
   <br>
   </div>
   </div>
-  
+</a>
   
   
   
